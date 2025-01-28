@@ -65,7 +65,7 @@ export function App() {
               return
             }
 
-            await loadTransactionsByEmployee(newValue.id)
+            await (newValue.id ? loadTransactionsByEmployee(newValue.id) : loadAllTransactions())
           }}
         />
 
