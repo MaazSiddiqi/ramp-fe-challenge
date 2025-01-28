@@ -8,7 +8,9 @@ export function Instructions() {
       <p className="RampText">
         Your company uses Ramp as their main financial instrument. You are a manager and you need to
         approve the transactions made by your employees.
-        <span className="RampBreak--s" />
+      </p>
+      <div className="RampBreak--s" />
+      <p className="RampText">
         Select the checkbox on the right to approve or decline the transactions. You can filter
         transactions by employee.
       </p>
